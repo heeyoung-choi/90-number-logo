@@ -30,7 +30,7 @@ font = ImageFont.truetype('PlayfairDisplay-VariableFont_wght.ttf', 90)
 # new = drawBoard(bg, font_roboto_100, 30, 400, 150, 200, 10, table)
 # new.show()
 
-for i in range(5):
+for i in range(100):
     text ="#" + ("0" if i < 10 else "") + str(i)
     table = generate_table()
     bg = Image.new('RGB', (1500, 2400), color=(230,230,230))
